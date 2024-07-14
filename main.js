@@ -111,7 +111,7 @@ client.once('ready', () => {
       activities: [{ name: `FurYxHosted.gg`, type: ActivityType.Streaming }],
       url: 'https://www.youtube.com/watch?v=Z_Tg9VPp1TY',
     });
-  }, 2000); 
+  }, 
 });
 
 
