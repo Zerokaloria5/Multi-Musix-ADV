@@ -108,8 +108,8 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `v@1.7`, type: ActivityType.Watching }],
-      status: 'idle',
+      activities: [{ name: `FurYxHosted.gg`, type: ActivityType.Streaming }],
+      url: 'https://www.youtube.com/watch?v=Z_Tg9VPp1TY',
     });
   }, 2000); 
 });
